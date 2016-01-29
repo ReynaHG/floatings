@@ -1,13 +1,13 @@
-div{
+div>div{
 	height: 100px;
-	width:  200px;
-    border:1px;
+	width:  25%;
+	float: left;
    }
 
  .uno{
-	height: 300px;
-	width:  500px;
-	border:3px solid;
+	border:2px solid purple;
+	width: 800px;
+	margin-top: 20px;
 }  
 
  .amarillo{
@@ -20,4 +20,13 @@ div{
 
 .rojo{
  	background: red;
+}
+
+.clearfix:before, .clearfix:after{
+	content: "";
+	display: table;
+	clear: both;
+}
+.clearfix:after{
+	clear: both;
 }
